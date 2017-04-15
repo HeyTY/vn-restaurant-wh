@@ -35,3 +35,132 @@
 .header-logo h1 {
     font-size: 85px;
 }
+
+/*About*/
+
+.about {
+    padding: 545px 0 100px;
+    text-align: center;
+}
+
+.about h2,
+.about h4 {
+    text-align: center;
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.about p {
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+/*Hours*/
+
+.hours {
+    padding: 545px 0 100px;
+    text-align: center;
+    background-image: url(../images/hours-image-vn.jpg);
+
+    background-size: cover;
+    background-position: 50% 50%;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    min-height: 528px;
+}
+
+.hours h2,
+.hours h4 {
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+
+.hours p {
+    color: #ffffff;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.hours .hour-days {
+    color: #e80705;
+}
+
+/*Menu*/
+
+.menu .container {
+    padding-top: 25px;
+    height: 500px;
+}
+
+.menu img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+.menu .menu-header {
+    color: #e80705;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.menu .menu-english-name {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu .menu-viet-name {
+    color: #484745;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.menu span {
+    color: #c02530;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 14px;
+}
+
+#menu-button {
+    border: 2px solid #dd0301;
+    background: transparent;
+    color: #dd0301;
+    font-size: 18px;
+    position: relative;
+    height: 65px;
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu-button:hover {
+    background: #dd0301;
+    color: #ffffff;
+    transition: 0.5s all ease;
+}
+
+hr.style14 {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
