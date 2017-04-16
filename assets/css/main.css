@@ -157,13 +157,13 @@ g
     background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-    background-image: url(../images/header-image-vn.jpg);
+    background-image: url(../images/header-image-vn-3.jpg);
 }
 .fade-carousel .slides .slide-2 {
     background-image: url(../images/header-image-vn-2.jpg);
 }
 .fade-carousel .slides .slide-3 {
-    background-image: url(../images/header-image-vn-3.jpg);
+    background-image: url(../images/header-image-vn.jpg);
 }
 
 /********************************/
@@ -182,19 +182,70 @@ g
 .about {
     padding: 75px 0 100px;
     text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
-.about h2,
-.about h4 {
+.about h2 {
     text-align: center;
-    color: #4c4c4c;
+    color: #383733;
     margin: 20px 0 20px;
+    text-transform: uppercase;
+}
+
+.about h4 {
+    color: #777777;
 }
 
 .about p {
-    color: #737373;
-    font-size: 14px;
+    padding-top: 20px;
+    color: #383733;
+    font-size: 16px;
     padding-bottom: 40px;
+    line-height: 30px;
+
+}
+
+#about-content {
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/*Quote*/
+
+section {
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+    background:#fff;
+    width:60%;
+    margin:100px auto;
+    padding:50px;
+}
+blockquote {
+    text-align:center;
+    font-size:20px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    border-left: none;
+    position:relative;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:after {
+    color:#ccc;
+    font-family:Source Sans Pro;
+    content: open-quote;
+    font-size:80px;
+    position:absolute;
+    left:50%;
+    bottom:calc(100% - 20px);
+    background:#fff;
+    height:55px;
+    width: 55px;
+    line-height:normal;
+    text-align:center;
+    transform:translateX(-50%);
+}
+blockquote p {
+    padding:20px;
 }
 
 /*Hours*/
@@ -208,16 +259,31 @@ g
     background-position: 50% 50%;
     background-position: 50% 50% !important;
     background-repeat: no-repeat;
+    position: relative;
     padding-top: 30px;
     padding-bottom: 40px;
     min-height: 528px;
 }
 
+#color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
 .hours h2,
 .hours h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
     color: #ffffff;
     text-align: center;
     margin: 20px 0 20px;
+    text-transform: uppercase;
 }
 
 .hours p {
@@ -228,7 +294,26 @@ g
 
 .hours .hour-days {
     color: #e80705;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 38px;
 }
+
+.hours .time {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hours .phone-number {
+    color: #e80705;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+
+    text-transform: uppercase;
+
+}
+
 
 /*Menu*/
 
@@ -342,6 +427,7 @@ hr.style14 {
 
 .contact {
     color: #ffffff;
+    font-family: 'Alegreya Sans', sans-serif;
     padding: 50px 0 80px;
     text-align: center;
     background-color: #000000;
@@ -349,6 +435,7 @@ hr.style14 {
 
 .contact p {
     padding-bottom: 80px;
+    font-size: 20px;
 
 }
 
@@ -375,6 +462,8 @@ hr.style14 {
     width: 100%;
     font-size: 15px;
     background-color: #D30017;
+    text-transform: uppercase;
+    font-size: 20px;
 
 }
 
@@ -394,6 +483,7 @@ hr.style14 {
 /* Footer */
 
 .footer {
+    font-family: 'Alegreya Sans', sans-serif;
     padding: 30px;
     color: #cccccc;
     background-color: #000000;
