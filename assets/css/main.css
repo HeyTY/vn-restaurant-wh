@@ -41,7 +41,7 @@ g
 /*Header*/
 
 .header {
-    background-image: url(../images/header-image-vn.jpg);
+    /*background-image: url(../images/header-image-vn.jpg);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +63,16 @@ g
 }
 .header-logo h1 {
     font-size: 85px;
+}
+
+/*Carousel*/
+
+
+.carousel-inner .item img {
+    height: 720 px;
+    width: 100%;
+    top: 0px;
+    right: 0px;
 }
 
 
