@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vietnam Restaurant - West Hartford</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
 
 </head>
@@ -27,10 +28,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Reservations</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -183,7 +183,189 @@
                 </div>
             </div>
 
+            <!--GALLERY-->
+
+            <div id="gallery" class="gallery-container container">
+                <div id="main_area">
+                    <h2>Gallery</h2>
+                    <!-- Slider -->
+                    <div class="row">
+                        <div class="col-sm-6" id="slider-thumbs">
+                            <!-- Bottom switcher of slider -->
+                            <ul class="hide-bullets">
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-0">
+                                        <img src="./assets/images/gallery-thumbnail/gallery-1-bo-lac.jpg">
+                                    </a>
+                                </li>
+
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-1"><img src="./assets/images/gallery-thumbnail/gallery-2-banh-xeo.jpg"></a>
+                                </li>
+
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-2"><img src="./assets/images/gallery-thumbnail/gallery-3-pho-bo.jpg"></a>
+                                </li>
+
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-3"><img src="./assets/images/gallery-thumbnail/gallery-4-pho-ga.jpg"></a>
+                                </li>
+
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-4"><img src="./assets/images/gallery-thumbnail/gallery-5-bun-cha-gio.jpg"></a>
+                                </li>
+
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-5"><img src="./assets/images/gallery-thumbnail/gallery-6-spring-rolls.jpg"></a>
+                                </li>
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-6"><img src="./assets/images/gallery-thumbnail/gallery-7-cha-gio.jpg"></a>
+                                </li>
+
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-7"><img src="./assets/images/gallery-thumbnail/gallery-8-hu-tieu.jpg "></a>
+                                </li>
+
+                                <li class="col-sm-4">
+                                    <a class="thumbnail" id="carousel-selector-8"><img src="./assets/images/gallery-thumbnail/gallery-9-won-ton.jpg"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="col-xs-12" id="slider">
+                                <!-- Top part of the slider -->
+                                <div class="row">
+                                    <div class="col-sm-12" id="carousel-bounding-box">
+                                        <div class="carousel slide" id="myCarousel">
+                                            <!-- Carousel items -->
+                                            <div class="carousel-inner">
+                                                <div class="active item" data-slide-number="0">
+                                                    <img src="./assets/images/gallery/gallery-1-bo-lac.jpg"></div>
+
+                                                <div class="item" data-slide-number="1">
+                                                    <img src="./assets/images/gallery/gallery-2-banh-xeo.jpg"></div>
+
+                                                <div class="item" data-slide-number="2">
+                                                    <img src="./assets/images/gallery/gallery-3-pho-bo.jpg"></div>
+
+                                                <div class="item" data-slide-number="3">
+                                                    <img src="./assets/images/gallery/gallery-4-pho-ga.jpg"></div>
+
+                                                <div class="item" data-slide-number="4">
+                                                    <img src="./assets/images/gallery/gallery-5-bun-cha-gio.jpg"></div>
+
+                                                <div class="item" data-slide-number="5">
+                                                    <img src="./assets/images/gallery/gallery-6-spring-rolls.jpg"></div>
+
+                                                <div class="item" data-slide-number="6">
+                                                    <img src="./assets/images/gallery/gallery-7-cha-gio.jpg"></div>
+
+                                                <div class="item" data-slide-number="7">
+                                                    <img src="./assets/images/gallery/gallery-8-hu-tieu.jpg"></div>
+
+                                                <div class="item" data-slide-number="8">
+                                                    <img src="./assets/images/gallery/gallery-9-won-ton.jpg"></div>
+
+
+                                            </div>
+                                            <!-- Carousel nav -->
+                                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                            </a>
+                                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Slider-->
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!--CONTACT-->
+
+            <div id="contact" class="contact">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="wow fadeInUp">Contact</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s">1131 New Britain Ave. West Hartford, CT  06110</p>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="input-group input-group-lg wow fadeInUp" data-wow-delay= "0.8s">
+                                <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name">
+                            </div>
+                            <div class="input-group input-group-lg wow fadeInUp" data-wow-delay= "1.2s">
+                                <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Email Address">
+                            </div>
+                            <div class="input-group input-group-lg wow fadeInUp" data-wow-delay= "1.6s">
+                                <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay= "2s">
+                            <div class="input-group">
+                                <textarea name="" id="" cols="80" rows="9" class="form-control"></textarea>
+                            </div>
+                            <div class="col-lg-12">
+                                <button class="btn btn-lg">Submit Your Message</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="map" class="map">
+                <div class="container">
+                    <div class="row">
+                        <div class="google-map col-md-12">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.4423427840334!2d-72.7350155843!3d41.732550882488695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7ad3d5a5fe25b%3A0xa780bd7ed9575494!2s1131+New+Britain+Ave%2C+West+Hartford%2C+CT+06110!5e0!3m2!1sen!2sus!4v1492301209744" width="800" height="600" frameborder="0" style="border:0" allowfullscreen>
+
+                            </iframe>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Footer -->
+
+            <div id="footer" class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <h4>Contact Us</h4>
+                            <p><i class="fa fa-home" aria-hidden="true"></i> 1131 New Britain Ave. West Hartford, CT 06110</p>
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i>info@vn.com</p>
+                            <p><i class="fa fa-phone" aria-hidden="true">(860) 236-7893</i></p>
+
+                        </div>
+
+                        <div class="col-lg-8 col-md-8">
+                            <h4>Stay in touch</h4>
+                            <i class="social fa fa-facebook" aria-hidden="true"></i>
+                            <i class="social fa fa-yelp" aria-hidden="true"></i>
+                            <i class="social fa fa-tripadvisor" aria-hidden="true"></i>
+                            <i class="social fa fa-google" aria-hidden="true"></i>
+                            <i class="social fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/gallery-carousel.js"></script>
 </body>
 </html>
