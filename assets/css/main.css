@@ -26,7 +26,7 @@ g
     color: #e80705 !important;
 }
 
-.header .navbar .navbar-brand {
+.navbar .navbar-brand {
     font-family: 'Allura', cursive;
     text-transform: none;
     font-size: 43px !important;
@@ -34,15 +34,18 @@ g
     padding-left: 30px;
 }
 
-.header .navbar .navbar-brand:hover {
+.navbar .navbar-brand:hover {
     color: #ffffff !important;
 
 }
 
 #bamboo-logo {
-    top: 0;
-    left: 20px;
-    position: absolute;
+    display: inline-block;
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -382,6 +385,8 @@ blockquote p {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    border-radius: 0;
+    vertical-align: baseline;
 }
 
 #menu-button:hover {
@@ -399,6 +404,10 @@ hr.style14 {
     background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
 
+
+.full-menu {
+    height: 1500px;
+}
 /*Gallery*/
 
 .gallery-container {
