@@ -1,3 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    /*text-rendering: optimizeLegibility  !important;*/
+    /*-webkit-font-smoothing: antialiased !important;*/
+}
+
+
 /*Navigation*/
 .navbar {
     background-color: rgba(12, 12, 13, 0.78032);
@@ -14,12 +26,12 @@
     z-index: 1001;
 }
 
+
+
 .navbar a {
     color: #fff !important;
     font-weight: 200;
     font-size: 14px !important;
-g
-
 }
 
 .navbar a:hover {
@@ -32,6 +44,16 @@ g
     font-size: 43px !important;
     color: #e80705 !important;
     padding-left: 30px;
+}
+
+@media screen and (max-width:736px) {
+    .navbar .navbar-brand {
+        font-size: 25px !important;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(12, 12, 13, 0.78032);
+    }
 }
 
 .navbar .navbar-brand:hover {
@@ -76,8 +98,28 @@ g
     font-size: 85px;
 }
 
-/*Carousel*/
+@media(max-width: 768px) {
+    .header {
+        padding: 30px;
+        height: 750px;
+    }
 
+    .header img {
+        width: 90%;
+        height: 300px;
+        margin: 20px 0 0 20px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header p {
+        font-size: 10px;
+    }
+}
+
+/*Carousel*/
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
@@ -222,6 +264,13 @@ g
     font-style: italic;
 }
 
+@media (max-width: 768px) {
+
+    .about {
+        padding: 30px;
+    }
+}
+
 /*Quote*/
 
 section {
@@ -297,11 +346,25 @@ blockquote p {
     text-transform: uppercase;
 }
 
+@media screen and (max-width:599px) {
+    .hours h2,
+    .hours h4 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin: 20px 0 20px;
+        text-transform: uppercase;
+    }
+}
+
 .hours p {
     color: #ffffff;
     font-size: 14px;
     padding-bottom: 40px;
 }
+
 
 .hours .hour-days {
     color: #e80705;
@@ -309,11 +372,29 @@ blockquote p {
     font-size: 38px;
 }
 
+@media screen and (max-width:599px) {
+    .hours .hour-days {
+        color: #e80705;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 20px;
+    }
+}
+
+
 .hours .time {
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+@media screen and (max-width:599px) {
+    .hours .time {
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
 }
 
 .hours .phone-number {
@@ -325,13 +406,15 @@ blockquote p {
 
 }
 
+@media (max-width: 768px) {
+
+    .hours {
+        padding: 30px;
+    }
+}
+
 
 /*Menu*/
-
-.menu .container {
-    padding-top: 25px;
-    height: 500px;
-}
 
 .menu img {
     display: block;
@@ -373,19 +456,24 @@ blockquote p {
     padding-left: 14px;
 }
 
+#menu-button-container {
+    margin-top: 50px;
+}
+
 #menu-button {
     border: 2px solid #dd0301;
+    border-radius: 0;
     background: transparent;
     color: #dd0301;
+    display: block;
     font-size: 18px;
-    position: relative;
     height: 65px;
     width: 260px;
-    display: block;
     margin: 0 auto;
+    position: relative;
+    padding-top: 15px;
     text-align: center;
     text-transform: uppercase;
-    border-radius: 0;
     vertical-align: baseline;
 }
 
@@ -408,11 +496,27 @@ hr.style14 {
 .full-menu {
     height: 1500px;
 }
+
+@media (max-width: 768px) {
+
+    .menu, .full-menu {
+        padding: 30px;
+        width: 100%;
+    }
+}
+
+.full-menu h4 {
+    color: #dd0301;
+}
+
 /*Gallery*/
 
 .gallery-container {
-    margin-top: 150px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 30px;
+    padding: 20px 0 80px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 
@@ -435,10 +539,18 @@ hr.style14 {
     height: 103px;
 }
 
+@media screen and (max-width:768px) {
+    #slider-thumbs .thumbnail {
+        display:none;
+    }
+}
+
 .carousel-inner img {
     padding-top: 15px;
     opacity: 1;
 }
+
+
 
 /*Contact*/
 
@@ -448,17 +560,18 @@ hr.style14 {
     padding: 50px 0 80px;
     text-align: center;
     background-color: #000000;
+
 }
 
 .contact p {
     padding-bottom: 80px;
     font-size: 20px;
-
 }
 
 .contact h2 {
-
+    font-family: 'Alegreya Sans', sans-serif;
     margin: 20px 0 20px;
+    text-transform: uppercase;
 }
 
 .contact .input-group {
