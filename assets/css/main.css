@@ -84,6 +84,7 @@ body {
     left: 0;
     right: 0;
     width: 100%;
+
 }
 
 .header-logo {
@@ -323,6 +324,9 @@ blockquote p {
     padding-top: 30px;
     padding-bottom: 40px;
     min-height: 528px;
+    text-shadow: 0px 4px  3px   rgba(0,0,0,0.4),
+    0px 8px  13px  rgba(0,0,0,0.1),
+    0px 18px 23px  rgba(0,0,0,0.1);
 }
 
 #color-overlay {
@@ -344,6 +348,8 @@ blockquote p {
     text-align: center;
     margin: 20px 0 20px;
     text-transform: uppercase;
+
+
 }
 
 @media screen and (max-width:599px) {
@@ -382,18 +388,23 @@ blockquote p {
 
 
 .hours .time {
+    color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
+    line-height: 14px;
     text-transform: uppercase;
-    color: #ffffff;
+
+
 }
 
 @media screen and (max-width:599px) {
     .hours .time {
+        color: #ffffff;
         font-family: 'Oswald', sans-serif;
         font-size: 18px;
+        line-height: 0px;
         text-transform: uppercase;
-        color: #ffffff;
+
     }
 }
 
@@ -401,17 +412,21 @@ blockquote p {
     color: #e80705;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
-
     text-transform: uppercase;
 
 }
 
-@media (max-width: 768px) {
-
-    .hours {
-        padding: 30px;
+@media screen and (max-width:599px) {
+    .hours .phone-number {
+        color: #e80705;
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
     }
 }
+
+
+
 
 
 /*Menu*/
